@@ -1,18 +1,16 @@
 <?php
-
 include("functions.php");
-
-// PHP goes here!
-
+$conn = get_connection();
 ?>
 
-    <!-- Header section  -->
+<!-- Header section  -->
 <?php include("header.php") ?>
+<!-- Main section  -->
+<div class="container">
+    <?php include("pages/current_elections.php") ?>
+    <?php include("pages/upcoming_elections.php") ?>
+</div>
 
-    <!-- Main section  -->
-    <div class="container">
-        <h1>Welcome</h1>
-    </div>
-
-    <!-- Footer section  -->
+<!-- Footer section  -->
 <?php include("footer.php") ?>
+<?php $conn->close(); ?>

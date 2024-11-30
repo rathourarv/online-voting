@@ -8,17 +8,17 @@ body {
 }
 
 p {
-    padding-top: 5px; 
+  padding-top: 5px;
 }
 
 .full-width {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
-  width: 100%
+  width: 100%;
   background-color: #3498db;
 }
 
@@ -28,7 +28,46 @@ p {
 }
 
 .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   text-align: center;
-  padding-top: 0px;
-  padding-bottom: 20px;
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+.my-form {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.my-form .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.login-form {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.login-form .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.logo-size {
+  height: 80px;
+  margin: 1px;
+}
+
+.user-button {
+  padding: 3%;
+  margin-top: 13px;
+}
+
+.update-profile-button {
+  margin-left: 991px;
+  margin-top: 12px;
 }
